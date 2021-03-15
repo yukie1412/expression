@@ -1,0 +1,150 @@
+[
+  {
+    "word": "chercher midi à quatorze heures",
+    "definition": [
+      "compliquer les choses inutilement",
+      "on complique les choses, alors qu’elles pourraient être simples",
+      "rendre une chose compliqué",
+      "chercher des difficultés où il n'y en a pas",
+      "on passe beaucoup de temps à chercher alors que l'évidence est sous nos yeux."
+    ],
+    "usage": [
+      "Il faut pas _____.",
+      "On ne...pas _____, on embauche la personne qui est la plus compétente.",
+      "Franchement, les deux films m'intéressent beaucoup. Alors, on ne...pas _____, on regarde celui qui est le plus populaire."
+    ],
+    "situation": [
+      {
+        "preface": "Nicolas organise la grande fête de famille chez lui cette année. Il discute avec Arthur de la préparation de l'événement.",
+        "content": [
+          "La fête de famille a lieu chez nous cette année! On pensait que l'on pourrait tous aller au restaurant à midi pour changer.",
+          "Bonne idée!",
+          "Tu connais L'auberge? Il y a une grande salle, ce sera parfait.",
+          "Oui, en plus l'ambiance est familiale. Mais c'est pas un peu cher?",
+          "Non, si on vient en groupe et qu'on les prévient ils nous feront un tarif spécial.",
+          "OK! Par contre faut penser à leur demander la carte à l'avance pour l'envoyer à tout le monde. Mais j'ai peur que ce soit compliqué de savoir qui voudra manger quoi...",
+          "Je pense qu'on va partir sur une seule formule tout compris plutôt que de _____! Sinon on sera pas rendu.",
+          "Oui t'as raison!"
+        ]
+      }
+    ]
+  },
+  {
+    "word": "me casser les pieds",
+    "definition": [
+      "m'ennuie",
+      "se mettre sur les nerfs de quelqu'un"
+    ],
+    "usage": [
+      "Je supporte plus ma coloc. Elle _____. Elle met de la musique très tard le soir, vraiment plus forte. Alors que je dois me réveiller tôt, pour aller au cours le lendemain, ou dès fois, elle et son copain, ils rigolent très fort, comme si je n’existais pas du tout. Des fois même je m’endors dans le salon, dès qu’ils arrivent, ils font du bruit.",
+      "franchement, ranger la chambre _____."
+    ],
+    "synonyms": [
+      "Tu me pompes l'air",
+      "Tu me casses les couilles",
+      "Un casse-pieds"
+    ],
+    "situation": [
+      {
+        "preface": "Un adolescent joue à un jeu vidéo pendant que sa grande soeur révise ses cours.",
+        "content": [
+          "Baisse le son de ta console de jeux! Ça _____!"
+        ]
+      },
+      {
+        "preface": "Une fille parle de sa colocataire problématique à sa meilleure amie",
+        "content": [
+          "Tous les jours elle veut savoir combien j'ai dépensé d'argent dans la journée et savoir ce que j'ai acheté avec. Elle _____."
+        ]
+      },
+      {
+        "preface": "Un employé se plaint de ses collàgues qui se disputent souvent.",
+        "content": [
+          "Ils _____ avec leurs histoires!"
+        ]
+      }
+    ]
+  },
+  {
+    "word": "perdre/prendre un temps fou",
+    "definition": [
+      "quand on gaspille du temps inutilement, alors on pourrait faire autrement"
+    ],
+    "usage": [
+      "Ça me _____ de faire quelque chose.",
+      "Tous les matins, Seb _____ à chercher ses lunettes. Il sais jamais où ils sont. Mais ce qu’il cherche le plus, c’est ses clés. Il les égare toujours.",
+      "Comme d'habitude, ça me _____ de choisir entre les deux fringues!",
+      "Ce qui m'agace un peu, c'est bien le processus de révision qui peut _____. Il doit être fait...refait... J'en ai vraiment marre, mais j'ai pas le choix, c'est mon travail en fait! Franchement ça sert à rien de se plaindre, faut qu'on voie les choses en face, avec courage!"
+    ],
+    "situation": [
+      {
+        "preface": "Deux collègues discutent de la procédure de demande de financement d'une formation.",
+        "content": [
+          "T'as déjà fait une demande de financement pour une formation?",
+          "Oui, y a un dossier à remplir en général.",
+          "J'ai commencé à le regarder, il y a pas mal de documents à fournir.",
+          "Oui, ce n'est pas très compliqué, mais envoie tes documents directement par mail sinon ça va te faire _____."
+        ]
+      }
+    ]
+  },
+  {
+    "word": "un coup de barre",
+    "definition": [
+      "un sentiment de fatigue subite",
+      "une sensation de fatigue soudaine"
+    ],
+    "usage": [
+      "Comme tu sais, les douleurs musculaire surviennent parfois tout de suite après l’effort. Un jour, j’ai eu _____, et j’ai décidée d’arrêter. Voilà pourquoi je vais plus à la gym",
+      "Mais je sais pas ce que j’ai, j’ai _____. C’est-à-dire, tu sais pas ce qui ne va pas avec toi. Tu te sens tout d’un coup épuisé.",
+      "J’ai toujours _____ après le repas.",
+      "Le patron m’a dit qu’il fallait tout recommencer. Ça m’a mis _____, c’est-à-dire, tu devais repartir de zéro, t’as perdu toute motivation."
+    ],
+    "situation": [
+      {
+        "preface": "Un couple discute de ce qu'il va cuisiner ce soir",
+        "content": [
+          "Je n'ai pas trop envie de cuisiner ce soir, la journée a été longue et j'ai _____. Commandons quelque chose à manger."
+        ]
+      },
+      {
+        "preface": "Lors d'une soirée entre amis, un des invités déclare la chose suivante",
+        "content": [
+          "J'ai _____! Je vais boire un verre de soda, ça ira mieux après."
+        ]
+      },
+      {
+        "preface": "Un joueur vient de se connecter à un jeu en ligne et parle avec son ami",
+        "content": [
+          "Finalement je ne vais pas jouer trop longtemps, j'ai _____."
+        ]
+      }
+    ]
+  },
+  {
+    "word": "raconter des salades",
+    "definition": [
+      "raconter des bêtises"
+    ],
+    "usage": [
+      "Ne me..pas _____, je connais tout! C'est-à-dire arrêter de me dire des bêtises.",
+      "Quand j'étais collégien, j'ai dit à ma maman: je vais suivre le cours particulier en maths. Maman m'a répondu: j'espère que tu me _____, tu sais que j'ai le numéro de ton prof.",
+      "Je te jure que ce sont pas _____. C'est exactement comme ça que ça s'est passé."
+    ],
+    "situation": [
+      {
+        "preface": "Deux personnes discutent des aides sociales",
+        "content": [
+          "J'ai vu sur un site web qu'on ne pouvait pas avoir d'aides au logement lorsque l'on a plus de 30 ans. Et ça disait aussi que si on en avait reçu, on risque de devoir les rembourser.",
+          "Si tu veux mon avis, on t'a _____!"
+        ]
+      },
+      {
+        "preface": "Une personne sait qu'il y a des problèmes dans son entreprise mais personne n'ose en parler franchement",
+        "content": [
+          "J'en ai assez qu'on me _____, je veux savoir ce qu'il se passe réellement ici!"
+        ]
+      }
+    ]
+  }
+]
