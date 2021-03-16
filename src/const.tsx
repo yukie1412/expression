@@ -6,12 +6,12 @@ const Constants = {
   ROUTES: [
     {
       title: 'Study',
-      link: '/study',
+      link: '/expression/study',
       component: () => <Study />
     },
     {
       title: 'Review',
-      link: '/review',
+      link: '/expression/review',
       component: () => <Review />
     }
   ]

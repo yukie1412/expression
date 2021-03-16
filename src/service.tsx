@@ -40,12 +40,12 @@ export const getVocabDetail = (idx: string): VocabObj => {
   const data = getJson();
   const index = parseInt(idx, 10);
   if (isNaN(index) || index >= data.length) {
-    window.history.replaceState(null, data[0].word, '/study/0');
+    window.history.replaceState(null, data[0].word, '/expression/study/0');
     return data[0];
   }
   if (index < 0) {
     const last = data.length - 1;
-    window.history.replaceState(null, data[last].word, `/study/${last}`);
+    window.history.replaceState(null, data[last].word, `/expression/study/${last}`);
     return data[last];
   }
   return data[index];

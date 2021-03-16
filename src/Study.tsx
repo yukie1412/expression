@@ -25,8 +25,8 @@ function Study() {
         {words && (
             <List component="nav">
               {
-                words.map((word: IWord) => (
-                  <ListItem button component="a" href={'/study/' + word.idx}>
+                words.map((word: IWord, idx: number) => (
+                  <ListItem button component="a" href={'/expression/study/' + word.idx} key={idx}>
                     <ListItemText primary={word.word} key={word.idx} />
                   </ListItem>
                 ))

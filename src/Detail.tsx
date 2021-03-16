@@ -44,7 +44,7 @@ function Detail() {
     } else if (cur >= total) {
       cur = 0;
     }
-    history.push(`/study/${cur}`);
+    history.push(`/expression/study/${cur}`);
   }
 
   const toLast = () => {
@@ -89,9 +89,9 @@ function Detail() {
           {!isObj && listContent(vocab[key])}
           {isObj && (<List aria-label="Situation">
             {vocab[key].map((obj: Situation, idx: number) => (
-              <div>
+              <div key={idx}>
                 <Typography variant="subtitle1">{obj.preface}</Typography>
-                <ListItem key={idx}>
+                <ListItem>
                   { listContent(obj.content) }
                 </ListItem>
               </div>

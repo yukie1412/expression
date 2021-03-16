@@ -37,13 +37,13 @@ function App() {
         <NavBar />
 
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route path="/expression" exact component={Home} />
           {
             Constants.ROUTES.map((route, idx) => (
               <Route path={route.link} key={idx} exact component={route.component} />
             ))
           }
-          <Route path="/study/:id" component={Detail} />
+          <Route path="/expression/study/:id" component={Detail} />
         </Switch>
       </ThemeProvider>
     </BrowserRouter>
@@ -56,7 +56,7 @@ function NavBar() {
   return (
     <AppBar position="relative">
       <Toolbar>
-        <Link href="/">
+        <Link href="/expression">
           <Typography variant="h6" color="textPrimary" noWrap className={classes.headerText}>{Constants.TITLE}</Typography>
         </Link>
 
