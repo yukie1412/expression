@@ -9,6 +9,7 @@ import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import Container from '@material-ui/core/Container';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Grid from '@material-ui/core/Grid';
+import Hidden from '@material-ui/core/Hidden';
 import IconButton from '@material-ui/core/IconButton';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
@@ -110,13 +111,20 @@ function Detail() {
             <IconButton color="primary" aria-label="last vocab" component="span" onClick={toLast}>
               <ChevronLeftIcon />
             </IconButton>
-            <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-              {vocab.word}
-            </Typography>
+            <Hidden mdDown>
+              <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
+                {vocab.word}
+              </Typography>
+            </Hidden>
             <IconButton color="primary" aria-label="next vocab" component="span" onClick={toNext}>
               <ChevronRightIcon />
             </IconButton>
           </Grid>
+          <Hidden mdUp>
+            <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
+              {vocab.word}
+            </Typography>
+          </Hidden>
 
           {accordion('definition')}
           {accordion('usage')}
