@@ -1,0 +1,99 @@
+[
+  {
+    "word": "s'en mordre les doigts",
+    "isSupplementary": false,
+    "definition": [
+      "quand tu regrettes au plus profond de toi quelque chose que tu as fait",
+      "quand on a énormément de regrets, des remords"
+    ],
+    "usage": [
+      "Avant de venir en France, j'ai pris beaucoup de retard sur mon travail. Maintenant, je _____ parce que je suis obligé de travailler au lieu de m'amuser à Paris.",
+      "Les pays qui ont déjà ouvert leurs frontières ne semblent pas _____."
+    ]
+  },
+  {
+    "word": "être obligé de",
+    "isSupplementary": true,
+    "definition": [
+    ],
+    "usage": [
+      "Cette fonction nous facilite, ça vaut plus la peine d'_____ regarder continuellement l'écran.",
+      "Avant d'obliger un homme, assurez-vous bien d'abord que cet homme n'est pas un imbécile.",
+      "Il est assez difficile d'_____ trouver une conclusion dans un domaine où les réalités de négociation doivent également refléter qui s'engage commercialement et qui ne s'engage pas."
+    ]
+  },
+  {
+    "word": "au lieu de",
+    "isSupplementary": true,
+    "definition": [
+    ],
+    "usage": [
+      "Je prendrai une infusion de camomille _____ un thé noir."
+    ]
+  },
+  {
+    "word": "en vouloir (à)",
+    "isSupplementary": true,
+    "definition": [
+    ],
+    "usage": [
+      "N'oublie pas de lui expliquer. Sinon il va m'_____.",
+      "Je m'_____!",
+      "Tu ne peux _____ toi-même."
+    ]
+  },
+  {
+    "word": "à tes/vos souhaits!",
+    "isSupplementary": false,
+    "definition": [
+    ],
+    "usage": []
+  },
+  {
+    "word": "à ta santé!",
+    "isSupplementary": false,
+    "definition": [
+    ],
+    "usage": []
+  },
+  {
+    "word": "à tes amours!",
+    "isSupplementary": false,
+    "definition": [
+    ],
+    "usage": []
+  },
+  {
+    "word": "contrairement à",
+    "isSupplementary": true,
+    "definition": [
+    ],
+    "usage": [
+      "_____ moi, Stef aime bien faire du lèche-vitrine.",
+      "_____ ce que tu penses, c'est pas difficile du tout.",
+      "_____ ce que dit le rapport présenté aujourd'hui, c'est difficile à être mis(e) en place."
+    ]
+  },
+  {
+    "word": "au cours de",
+    "isSupplementary": true,
+    "definition": [
+    ],
+    "usage": [
+      "Ce document a été transmis au service de SAV, _____ la réunion de la semaine dernière.",
+      "_____ la période considérée, l'usine avait cessé leur production."
+    ]
+  },
+  {
+    "word": "déstabiliser",
+    "isSupplementary": true,
+    "definition": [
+    ],
+    "usage": [
+      "Effectivement, ça va _____ la personne.",
+      "Le COVID a _____ l'économie mondiale.",
+      "La situation tendue risque de _____ davantage une ville déjà très fragile.",
+      "Hier, j'ai appris une mauvaise nouvelle, elle m'a beaucoup _____."
+    ]
+  }
+]

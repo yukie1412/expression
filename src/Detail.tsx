@@ -16,6 +16,7 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import Typography from '@material-ui/core/Typography';
 
+import Favorite from './Favorite';
 import { getVocabDetail, getTotal } from './service';
 import { VocabObj, Situation } from './interfaces/vocabObj';
 
@@ -62,7 +63,7 @@ function Detail() {
     if (arr.length === 1) {
       return <div>{text}</div>
     }
-    return <div>{arr[0]} <strong>{vocab.word}</strong> {arr[1]}</div>
+    return <div>{arr[0]}<strong>{vocab.word}</strong>{arr[1]}</div>
   };
 
   const listContent = (arr: string[]) => (
@@ -104,36 +105,38 @@ function Detail() {
   };
 
   const content = () => {
-    if (vocab) {
-      return (
-        <Container>
-          <Grid container direction="row" justify="space-between" alignItems="baseline">
-            <IconButton color="primary" aria-label="last vocab" component="span" onClick={toLast}>
-              <ChevronLeftIcon />
-            </IconButton>
-            <Hidden mdDown>
-              <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-                {vocab.word}
-              </Typography>
-            </Hidden>
-            <IconButton color="primary" aria-label="next vocab" component="span" onClick={toNext}>
-              <ChevronRightIcon />
-            </IconButton>
-          </Grid>
-          <Hidden mdUp>
+    if (!vocab) {
+      return '';
+    }
+    return (
+      <Container>
+        <Grid container direction="row" justify="space-between" alignItems="baseline">
+          <IconButton color="primary" aria-label="last vocab" component="span" onClick={toLast}>
+            <ChevronLeftIcon />
+          </IconButton>
+          <Hidden mdDown>
             <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
               {vocab.word}
             </Typography>
+            <Favorite word={vocab.word} />
           </Hidden>
+          <IconButton color="primary" aria-label="next vocab" component="span" onClick={toNext}>
+            <ChevronRightIcon />
+          </IconButton>
+        </Grid>
+        <Hidden mdUp>
+          <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
+            {vocab.word}
+          </Typography>
+          <Favorite word={vocab.word} />
+        </Hidden>
 
-          {accordion('definition')}
-          {accordion('usage')}
-          {accordion('synonyms')}
-          {accordion('situation', true)}
-        </Container>
-      );
-    }
-    return '';
+        {accordion('definition')}
+        {accordion('usage')}
+        {accordion('synonyms')}
+        {accordion('situation', true)}
+      </Container>
+    );
   }
 
   return <main>{content()}</main>;

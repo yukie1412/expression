@@ -7,7 +7,8 @@ export interface VocabObj {
   word: string;
   definition: string[];
   usage: string[];
-  situation: Situation[];
+  isSupplementary: boolean;
+  situation?: Situation[];
   synonyms?: string[];
   [key: string]: any;
 }

@@ -4,8 +4,10 @@ import Container from '@material-ui/core/Container';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
+import ListItemSecondaryAction from '@material-ui/core/ListItemSecondaryAction';
 import Typography from '@material-ui/core/Typography';
 
+import Favorite from './Favorite';
 import { getVocabs } from './service';
 
 interface IWord {
@@ -28,6 +30,7 @@ function Study() {
                 words.map((word: IWord, idx: number) => (
                   <ListItem button component="a" href={'/expression/study/' + word.idx} key={idx}>
                     <ListItemText primary={word.word} key={word.idx} />
+                    <ListItemSecondaryAction><Favorite word={word.word} /></ListItemSecondaryAction>
                   </ListItem>
                 ))
               }

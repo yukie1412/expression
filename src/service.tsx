@@ -1,5 +1,5 @@
 import { VocabObj, Question, QuestionSet } from './interfaces/vocabObj';
-import JSONResult from './vocabObj.json';
+import JSONResult from './idioms.json';
 
 const getJson = () => {
   return JSONResult;
