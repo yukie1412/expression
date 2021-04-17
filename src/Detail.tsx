@@ -16,9 +16,9 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import Typography from '@material-ui/core/Typography';
 
-import Favorite from './Favorite';
+import ToggleIcon from './ToggleIcon';
 import { getVocabDetail, getTotal } from './service';
-import { VocabObj, Situation } from './interfaces/vocabObj';
+import { VocabObj, VocabBase } from './interfaces/vocabObj';
 
 interface IDetailParam {
   id: string;
@@ -32,7 +32,16 @@ function Detail() {
   const total = getTotal();
 
   useEffect(() => {
-    setVocab(getVocabDetail(id));
+    let vocab = getVocabDetail(id);
+    setVocab(vocab);
+  
+    const item = localStorage.getItem(vocab.word);
+    let json: any = {};
+    if (item) {
+      json = JSON.parse(item);
+    }
+    json.lastViewed = Date.now();
+    localStorage.setItem(vocab.word, JSON.stringify(json));
   }, [location, id]);
 
   const toPage = (page: 'next' | 'last') => {
@@ -57,22 +66,21 @@ function Detail() {
     toPage('next');
   }
 
-  const styledListItem = (text: string) => {
-    if (!vocab) { return ''; }
+  const styledListItem = (text: string, word: string) => {
     const arr = text.split('_____');
     if (arr.length === 1) {
       return <div>{text}</div>
     }
-    return <div>{arr[0]}<strong>{vocab.word}</strong>{arr[1]}</div>
+    return <div>{arr[0]}<strong>{word}</strong>{arr[1]}</div>
   };
 
-  const listContent = (arr: string[]) => (
+  const listContent = (arr: string[], word: string) => (
     <List aria-label="Content">
       {
         arr.map((text: string, idx: number) => (
           <ListItem key={idx}>
             <ListItemText>
-              {styledListItem(text)}
+              {styledListItem(text, word)}
             </ListItemText>
           </ListItem>
         ))
@@ -88,13 +96,13 @@ function Detail() {
           <Typography variant="h6">{key}</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          {!isObj && listContent(vocab[key])}
-          {isObj && (<List aria-label="Situation">
-            {vocab[key].map((obj: Situation, idx: number) => (
+          {!isObj && listContent(vocab[key], vocab.word)}
+          {isObj && (<List aria-label={key}>
+            {vocab[key].map((obj: VocabBase, idx: number) => (
               <div key={idx}>
-                <Typography variant="subtitle1">{obj.preface}</Typography>
+                <Typography variant="subtitle1">{obj.word}</Typography>
                 <ListItem>
-                  { listContent(obj.content) }
+                  { listContent(obj.usage, obj.word) }
                 </ListItem>
               </div>
             ))}
@@ -118,8 +126,8 @@ function Detail() {
             <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
               {vocab.word}
             </Typography>
-            <Favorite word={vocab.word} />
           </Hidden>
+          <ToggleIcon word={vocab.word} iconType="fav" />
           <IconButton color="primary" aria-label="next vocab" component="span" onClick={toNext}>
             <ChevronRightIcon />
           </IconButton>
@@ -128,13 +136,13 @@ function Detail() {
           <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
             {vocab.word}
           </Typography>
-          <Favorite word={vocab.word} />
         </Hidden>
 
         {accordion('definition')}
         {accordion('usage')}
         {accordion('synonyms')}
         {accordion('situation', true)}
+        {accordion('extension', true)}
       </Container>
     );
   }

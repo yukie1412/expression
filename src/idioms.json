@@ -1,7 +1,6 @@
 [
   {
     "word": "s'en mordre les doigts",
-    "isSupplementary": false,
     "definition": [
       "quand tu regrettes au plus profond de toi quelque chose que tu as fait",
       "quand on a énormément de regrets, des remords"
@@ -9,63 +8,55 @@
     "usage": [
       "Avant de venir en France, j'ai pris beaucoup de retard sur mon travail. Maintenant, je _____ parce que je suis obligé de travailler au lieu de m'amuser à Paris.",
       "Les pays qui ont déjà ouvert leurs frontières ne semblent pas _____."
-    ]
-  },
-  {
-    "word": "être obligé de",
-    "isSupplementary": true,
-    "definition": [
     ],
-    "usage": [
-      "Cette fonction nous facilite, ça vaut plus la peine d'_____ regarder continuellement l'écran.",
-      "Avant d'obliger un homme, assurez-vous bien d'abord que cet homme n'est pas un imbécile.",
-      "Il est assez difficile d'_____ trouver une conclusion dans un domaine où les réalités de négociation doivent également refléter qui s'engage commercialement et qui ne s'engage pas."
-    ]
-  },
-  {
-    "word": "au lieu de",
-    "isSupplementary": true,
-    "definition": [
-    ],
-    "usage": [
-      "Je prendrai une infusion de camomille _____ un thé noir."
-    ]
-  },
-  {
-    "word": "en vouloir (à)",
-    "isSupplementary": true,
-    "definition": [
-    ],
-    "usage": [
-      "N'oublie pas de lui expliquer. Sinon il va m'_____.",
-      "Je m'_____!",
-      "Tu ne peux _____ toi-même."
+    "extension": [
+      {
+        "word": "être obligé de",
+        "usage": [
+          "Cette fonction nous facilite, ça vaut plus la peine d'_____ regarder continuellement l'écran.",
+          "Avant d'obliger un homme, assurez-vous bien d'abord que cet homme n'est pas un imbécile.",
+          "Il est assez difficile d'_____ trouver une conclusion dans un domaine où les réalités de négociation doivent également refléter qui s'engage commercialement et qui ne s'engage pas."
+        ]
+      },
+      {
+        "word": "au lieu de",
+        "usage": [
+          "Je prendrai une infusion de camomille _____ un thé noir."
+        ]
+      },
+      {
+        "word": "en vouloir (à)",
+        "usage": [
+          "N'oublie pas de lui expliquer. Sinon il va m'_____.",
+          "Je m'_____!",
+          "Tu ne peux _____ toi-même."
+        ]
+      }
     ]
   },
   {
     "word": "à tes/vos souhaits!",
-    "isSupplementary": false,
     "definition": [
+      "lorsqu'une personne éternue pour la première fois"
     ],
     "usage": []
   },
   {
     "word": "à ta santé!",
-    "isSupplementary": false,
     "definition": [
+      "lorsqu'une personne éternue pour la deuxième fois"
     ],
     "usage": []
   },
   {
     "word": "à tes amours!",
-    "isSupplementary": false,
     "definition": [
+      "lorsqu'une personne éternue pour la triosième fois"
     ],
     "usage": []
   },
   {
     "word": "contrairement à",
-    "isSupplementary": true,
     "definition": [
     ],
     "usage": [
@@ -76,7 +67,6 @@
   },
   {
     "word": "au cours de",
-    "isSupplementary": true,
     "definition": [
     ],
     "usage": [
@@ -86,7 +76,6 @@
   },
   {
     "word": "déstabiliser",
-    "isSupplementary": true,
     "definition": [
     ],
     "usage": [
@@ -94,6 +83,42 @@
       "Le COVID a _____ l'économie mondiale.",
       "La situation tendue risque de _____ davantage une ville déjà très fragile.",
       "Hier, j'ai appris une mauvaise nouvelle, elle m'a beaucoup _____."
+    ]
+  },
+  {
+    "word": "c'est la gouffe d'eau qui fait déborder le vase",
+    "definition": [
+      "la chose en plus qui va provoquer une réaction inattendue face à une situation qui nous a insupportable!",
+      "on a d'un côté l'énervement qui va faire que le vase va se remplir jusqu'à être bien plien et l'explosion qui suit et que le vase finit par déborder dès que la petite goutte de trop y a été versée."
+    ],
+    "usage": [
+      "Je suis tout à fait d'accord avec toi, il faut respecter les choix des autres, surtout que tu l'avais déjà prévenu de ne plus recommencer. C'était la fois de trop, _____",
+      "Mon fils a encore remené une mauvaise note à la maison. _____, je l'ai privé de TV et jeux vidéo jusqu'à ce qu'il travaille mieux à l'école.",
+      "Ils se sont encore disputés et il lui a encore dit qu'elle était égoïste comme sa mère! _____! Elle l'a alors quitté. Il faut accepter l'autre avec ses qualités tout comme ses défauts."
+    ],
+    "extension": [
+      {
+        "word": "inattendu",
+        "usage": [
+          "C'était une réponse _____.",
+          "L'équipe n'a pas tenu compte de ce développement _____.",
+          "Son décés _____ fait un choc pour nous."
+        ]
+      },
+      {
+        "word": "se disputer",
+        "usage": [
+          "Mes voisins _____ souvent dans la nuis, c'est chiant.",
+          "Les parents de Léa _____ sans arrêt.",
+          "La finale va _____ dans une semaine."
+        ]
+      },
+      {
+        "word": "jusqu'à ce que",
+        "usage": [
+          "Reste ici _____ je revienne du travail."
+        ]
+      }
     ]
   }
 ]

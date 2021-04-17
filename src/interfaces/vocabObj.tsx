@@ -1,14 +1,12 @@
-export interface Situation {
-  preface: string;
-  content: string[];
+export interface VocabBase {
+  word: string;
+  usage: string[];
 }
 
-export interface VocabObj {
-  word: string;
+export interface VocabObj extends VocabBase {
   definition: string[];
-  usage: string[];
-  isSupplementary: boolean;
-  situation?: Situation[];
+  situation?: VocabBase[];
+  extension?: VocabBase[];
   synonyms?: string[];
   [key: string]: any;
 }

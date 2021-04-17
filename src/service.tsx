@@ -12,7 +12,9 @@ const getRandomIdx = (total: number): number => {
 const getRandomQuestion = (idx: number): Question => {
   const data = getJson();
   const word: VocabObj = data[idx];
-  const keys = Object.keys(word).filter((key: string) => key !== 'word' && key !== 'situation');
+  const keys = Object.keys(word).filter((key: string) => {
+    return key !== 'word' && word[key].length > 0 && typeof(word[key][0]) !== 'object';
+  });
   const key = keys[getRandomIdx(keys.length)];
   const question = word[key][getRandomIdx(word[key].length)];
   return {
