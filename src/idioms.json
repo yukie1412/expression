@@ -37,52 +37,266 @@
   {
     "word": "à tes/vos souhaits!",
     "definition": [
-      "lorsqu'une personne éternue pour la première fois"
+      "lorsqu'une personne éternue",
+      "à ta santé!",
+      "à tes amours!"
     ],
-    "usage": []
-  },
-  {
-    "word": "à ta santé!",
-    "definition": [
-      "lorsqu'une personne éternue pour la deuxième fois"
-    ],
-    "usage": []
-  },
-  {
-    "word": "à tes amours!",
-    "definition": [
-      "lorsqu'une personne éternue pour la triosième fois"
-    ],
-    "usage": []
-  },
-  {
-    "word": "contrairement à",
-    "definition": [
-    ],
-    "usage": [
-      "_____ moi, Stef aime bien faire du lèche-vitrine.",
-      "_____ ce que tu penses, c'est pas difficile du tout.",
-      "_____ ce que dit le rapport présenté aujourd'hui, c'est difficile à être mis(e) en place."
+    "usage": [],
+    "extension": [
+      {
+        "word": "contrairement à",
+        "usage": [
+          "_____ moi, Stef aime bien faire du lèche-vitrine.",
+          "_____ ce que tu penses, c'est pas difficile du tout.",
+          "_____ ce que dit le rapport présenté aujourd'hui, c'est difficile à être mis(e) en place."
+        ]
+      },
+      {
+        "word": "au cours de",
+        "usage": [
+          "Ce document a été transmis au service de SAV, _____ la réunion de la semaine dernière.",
+          "_____ la période considérée, l'usine avait cessé leur production."
+        ]
+      },
+      {
+        "word": "déstabiliser",
+        "usage": [
+          "Effectivement, ça va _____ la personne.",
+          "Le COVID a _____ l'économie mondiale.",
+          "La situation tendue risque de _____ davantage une ville déjà très fragile.",
+          "Hier, j'ai appris une mauvaise nouvelle, elle m'a beaucoup _____."
+        ]
+      }
     ]
   },
   {
-    "word": "au cours de",
+    "word": "chanter comme une casserole",
     "definition": [
+      "Ça veut dire chanter faux, sans harmonie"
     ],
     "usage": [
-      "Ce document a été transmis au service de SAV, _____ la réunion de la semaine dernière.",
-      "_____ la période considérée, l'usine avait cessé leur production."
+      "Les matins, j'aime bien chanter sous la douche, mais mon frère crie toujours«Tu ne sais même pas chanter! Tu _____, alors arrête, sinon il va pleuvoir!»",
+      "A propos, tu chantes comment, toi? Parce que moi je le sais déjà _____. C'est un vacarme."
+    ],
+    "extension": [
+      {
+        "word": "faire exprès",
+        "usage": [
+          "Il a _____ de faire ça pour voir sa réaction.",
+          "Je suis désolé, mais j'ai pas _____ de rater la réunion hier.",
+          "Ce collègue est un peu chiant, j'ai _____ d'arriver en avance pour ne pas le croiser en bas.",
+          "Il m'en a voulu(m'en veut), ce qui me rend triste, car j'ai agi ainsi sans le _____."
+        ]
+      }
     ]
   },
   {
-    "word": "déstabiliser",
+    "word": "donner la langue au chat",
     "definition": [
+      "Quand tu renonces à deviner tu abandonnes la réflexion.",
+      "«Jeter sa langue aux chiens»"
     ],
     "usage": [
-      "Effectivement, ça va _____ la personne.",
-      "Le COVID a _____ l'économie mondiale.",
-      "La situation tendue risque de _____ davantage une ville déjà très fragile.",
-      "Hier, j'ai appris une mauvaise nouvelle, elle m'a beaucoup _____."
+      "Tu _____?\nJe ne sais pas...je crois bien que oui je _____...vu que tu me le demandes. "
+    ],
+    "extension": [
+      {
+        "word": "vu que",
+        "usage": [
+          "_____ je sais pas conduire, je vais au travail en métro.",
+          "_____ je sais pas combien de personnes viendra, j'ai réservé une grande table.",
+          "_____ l'on se plaisait vraiment bien sur ce petit village si particulier, on a eu envie de prolonger un peu le séjour."
+        ]
+      },
+      {
+        "word": "être considéré comme",
+        "usage": [
+          "A cette époque, le chat était considéré comme un gardien de secrets."
+        ]
+      },
+      {
+        "word": "considérer qn./qch. comme acquis",
+        "usage": [
+          "Si tu as l'impression que ton copain te _____, faut que tu te protèges et poses à nouveau des limites."
+        ]
+      },
+      {
+        "word": "renoncer (à)",
+        "usage": [
+          "C'est trop difficile pour moi, je _____!",
+          "Comme je suis très occupé par mon travail, je suis obligé de _____ mon voyage.",
+          "Tu veux _____ projet et tout recommencer? Même si tu vas prendre le risque?"
+        ]
+      }
+    ]
+  },
+  {
+    "word": "(Quand) les poules auront des dents!",
+    "definition": [
+      "C'est pour exprimer une situation qui n’arrivera certainement jamais",
+      "A la saint Glinglin"
+    ],
+    "usage": [
+      "J'ai une amie qui, depuis un mois, veut que j'aille toutes les semaines avec elle à l'église...je lui ai déjà dit que le jour où j'entrerai dans une église, _____.",
+      "J'aurai un appartement à Paris quand les poules auront des dents.",
+      "Tu vas quand avec moi pour voir une pièce?\n_____!",
+      "Il m’a demandé s’il pouvait emprunter de l'argent, et j’ai répondu: «Oui, bien sûr, _____!»"
+    ],
+    "extension": [
+      {
+        "word": "vouloir que + subjonctif",
+        "usage": [
+          "Je _____ l'on soit en position de dire : «ce n'est pas le cas, on peut gérer les choses efficacement.»"
+        ]
+      },
+      {
+        "word": "nettement",
+        "usage": [
+          "C’est _____ plus court!",
+          "Il est évident que la pratique de l'expression orale est _____ insuffisante pour la plupart des apprenants.",
+          "Ma prononciation s'est _____ améliorée avec l'aide de Seb.",
+          "Les prix des produits de luxe ont _____ augmenté ces dernières années."
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Mieux vaut prévenir que guérir",
+    "definition": [
+      "annoncer à l'avance (mettre au courant/ en garde)",
+      "il est mieux d’être mis au courant avant que d’en venir à soigner/consoler l’autre. Et, en gros, la PRUDENCE! Tant que l’on peut éviter d’être dans des situations gênantes, il faut les éviter que de devoir les résoudre."
+    ],
+    "usage": [
+      "Quand tu achètes une voiture, il est _____ souscrire à une assurance au cas où il arriverais quelque chose.",
+      "Il y a un mois, j'ai eu un accident de moto mais je n'avais pas d'assurance, et les frais m'ont coûté chers. Cette fois-ci, j'ai sans hésité pris une assurance, car comme on dit «_____»",
+      "Quand j'étais étudiante, je voulais entrer à l'université de la Sorbonne, mais tout le monde sait qu'il faut 'excellentes notes pour espérer y entrer un jour. Mais (quand j'étais) au lycée je ne pensais qu'à m'amuser...mon père me disait souvent, il n'y a pas de secret pour réussir ses études, c'est le travail sans quoi tu vas rater ton Bac! Tu es jeune, c'est vrai, mais _____."
+    ],
+    "extension": [
+      {
+        "word": "au cas où + conditionnel",
+        "usage": [
+          "On collabore avec plusieurs usines _____ l'une d'entre eux ferait faillite.",
+          "Comme j'ai besoin de travailler souvent avec mon téléphone, j'ai ma batterie externe sur moi _____.",
+          "Le ciel est gris, (il) vaut mieux prendre ton parapluie, _____."
+        ]
+      },
+      {
+        "word": "sans quoi",
+        "usage": [
+          "C'est le travail, _____ tu vas rater ton Bac!",
+          "Le monde change rapidement, on doit changer avec lui, _____ on risque de se trouver dépassée."
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Il ne faut pas mettre la charrue avant les boeufs!",
+    "definition": [
+      "Ne va pas plus vite que la musique.",
+      "Ne va pas trop vite en besogne.",
+      "C'est pas dans le bon ordre."
+    ],
+    "usage": [
+      "A: Quand j’aurais ma voiture, je n’aurais plus besoin d'en louer une pour sortir avec mes chiens!\nB: Cool! _____, passe déjà ton permis et on en reparlera."
+    ],
+    "extension": [
+      {
+        "word": "comme si + imparfait",
+        "usage": [
+          "C’est un peu _____ je voulais commencer par la fin?",
+          "Mais c'est _____ on se connaissait depuis longtemps",
+          "Quand j'y pense, je me sens _____ j'étais en France."
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Etre comme un poisson dans l’eau",
+    "definition": [
+      "une personne très à l’aise quelque soit le lieu où elle se trouve, que ce soit au travail, entre amis, etc."
+    ],
+    "usage": [
+      "Hier, j'ai été à une réunion, mais j’étais (un peu) très mal à l’aise car je ne connaissais personne, seul Didier _____ à discuter avec tout le monde.",
+      "Dans les grands magasins, Lucie est _____. Elle a toutes les marques qu'elle aime.",
+      "A: Comment tu te sens dans ton nouveau travail?\nB: _____.",
+      "Marc se sent _____ dans ce type de projet."
+    ],
+    "extension": [
+      {
+        "word": "j'ai été (à)",
+        "usage": [
+          "_____ me promener avec mon coloc."
+        ]
+      },
+      {
+        "word": "à l’aise",
+        "usage": [
+          "Maud ne se sent pas _____ de prendre part à des activités communicatives.",
+          "Je suis _____ avec des jeunes.",
+          "J'étais mal _____.",
+          "Je suis _____ mieux avec un environnement PC qu'avec un environnement Mac.",
+          "Oh là là, je suis mal _____ avec iPhone."
+        ]
+      }
+    ]
+  },
+  {
+    "word": "avoir l'eau à la bouche",
+    "definition": [
+      "ça me fait baver",
+      "mettre l'eau à la bouche",
+      "ouvrir l'appétit",
+      "Ça m'a mis en appétit"
+    ],
+    "usage": [
+      "Tu m’_____ avec tes photos!",
+      "Pour l’anniversaire de mon frère ma mère avait préparé un gâteau au chocolat, elle m’a envoyé sur Weixin…j’en _____ que je suis parti plus tôt du travail pour en manger un morceau!"
+    ],
+    "extension": [
+      {
+        "word": "tellement...que...",
+        "usage": [
+          "Seb mange tellement qu'il finira par être malade.", 
+          "Il aime tellement sa copine qu'il ferait tout pour elle.",
+          "C'est tellement important la santé pour les jeunes qui ont des HS.",
+          "Tu aimes le dessert? Pas tellement."
+        ]
+      },
+      {
+        "word": "ouvrir l'appétit",
+        "usage": [
+          "Hier, une amie m'a invité chez elle pour le dîner, elle avait préparé des petites entrées, un délice, ça m'a _____!",
+          "Hier, un ami m'a invité chez lui pour manger la fondue, j'ai commencé par manger les boulettes de boeuf que j'aime très bien, qui m'ont _____."
+        ]
+      }
+    ]
+  },
+  {
+    "word": "tourner sept fois sa langue dans sa bouche",
+    "definition": [
+      "Avant de se dépêcher de parler, il vaudrait mieux prendre le temps de réfléchir, pour éviter de dire n’importe quoi."
+    ],
+    "usage": [
+      "La prochaine fois Hugo _____ dans sa bouche avant de parler!! Il n'aurait pas dû dire ça devant tout le monde, surtout qu'il est proche de Léa!",
+      "Dans la rue, j'ai croisé un cousin qui m'a demandé pour ma soeur, si elle est déjà mariée avec des enfants. (J'étais avec ma fille) Je lui ai répondu que non, et là il m'a demandé si j'avais d'autres copines, ben non, tu ne sais pas qu'elle ne peut pas avoir d'enfants, tata! Je lui ai alors dit: Ma fille, la prochaine fois (tu) _____ dans ta bouche avant de dire des(ces) bêtises de ce genre! Tu te rends compte de ce que tu viens de dire? Ta tante n'a tout simplement pas d'enfants car elle n'en veut pas et non pas pour d'autres raisons."
+    ],
+    "extension": [
+      {
+        "word": "croiser",
+        "usage": [
+          "Au cours de mon séjour à Paris, j'ai _____ Seb dans le magasin.",
+          "Malheureusement, les tigres sont très difficiles à apercevoir, et c'est dans les zoos qu'on a le plus de chance d'en _____ un.",
+          "Fais bouger tes jambes et tes pieds à quelques minutes d'intervalle et évite de _____ les genoux très longtemps."
+        ]
+      },
+      {
+        "word": "se rendre compte de/que",
+        "usage": [
+          "Je _____ j'ai oublié ma carte d'identité à la maison.",
+          "Tu _____ ce que tu as dit? Mais tourne sept fois ta langue dans ta bouche.",
+          "Il est important de _____ l'absence d'action a un coût."
+        ]
+      }
     ]
   },
   {
@@ -119,6 +333,167 @@
           "Reste ici _____ je revienne du travail."
         ]
       }
+    ]
+  },
+  {
+    "word": "reprendre du poil de la bête",
+    "definition": [
+      "En fait, l’origine de cette expression est de chercher le remède de ce qui a causé le mal:\n1) retrouver la forme après avoir été malade = reprendre le dessus sur la maladie. \n2) retrouver l’énergie après un mauvais moment = se montrer de nouveau combatif."
+    ],
+    "usage": [
+      "Petit à petit, il _____ après un mois d’arrêt maladie.",
+      "Après que le bébé soit resté 7 jours de plus à l’hôpital, il _____.",
+      "Le Covid a provoqué un arrêt brutal de l'activité économique. Mais on croit que la croissance économique _____ dans les années à venir.",
+      "On attend à ce que le chiffre d'affaires _____ au cours du troisième semestre."
+    ],
+    "extension": [
+      {
+        "word": "s'en sortir",
+        "usage": [
+          "Quoi qu'il aie un problème, il trouve toujours le moyen de _____.",
+          "Il n'a pas été très bon dans la négociation avec le client potentiel. Le client l'a acculé sur le délai et il n'a pu _____.",
+          "Il a fait tout ce qui est en son pouvoir pour aider son collègue à _____."
+        ]
+      }
+    ]
+  },
+  {
+    "word": "mettre de l'eau dans son vin",
+    "definition": [
+      "couper son vin",
+      "faire un compromis, calmer ses ardeurs",
+      "modérer ses exigences ou ses ambitions"
+    ],
+    "usage": [
+      "Mon père ne veut pas que je me marie avec n’importe qui, mais il va devoir _____, car j’ai déjà 35 ans et je ne compte pas attendre sa bénédiction jusqu’à mes 40 ans!",
+      "Un couple est divorcé depuis maintenant 1 mois, mais n'arrive plus  à communiquer. La femme dit: «Tu sais on doit vraiment trouver une solution pour les enfants. On a pas le choix, il faut en discuter.» L'homme répond: «Tu as raison! Pour le bien des enfants j'ai décidé de _____! On va bien finir par trouver un terrain d'entente.»",
+      "Comment ça? Tu te sépares avec ton copain? Ben, _____, va lui parler. ",
+      "Tu exagères (quand même)! _____."
+    ],
+    "extension": [
+      {
+        "word": "compter",
+        "usage": [
+          "Je ne _____ pas attendre sa bénédiction jusqu’à mes 40 ans!",
+          "J'ai eu trop de HS la semaine dernière, du coup, je _____ bien prendre un congé pour me reposer un peu."
+        ]
+      },
+      {
+        "word": "arriver à",
+        "usage": [
+          "Tu crois que c'est le bon choix pour _____ finir le travail nécessaire?",
+          "Cette entreprise est _____ faire de grosses économies."
+        ]
+      }
+    ]
+  },
+  {
+    "word": "un froid de canard",
+    "definition": [
+      "Ça veut dire qu’il fait vraiment très froid, un froid intense.",
+      "lors des jours les plus froids, les canards se déplacent les lacs vers les rivières. C’est le moment où les chasseurs les attrapent plus facilement. Ce sont les jours les plus froids de l’année que les chasseurs chassent le canard."
+    ],
+    "usage": [
+      "A: Il fait vraiment froid l’hiver en France! Combien de degré aujourd’hui?\nB: Oui, il fait _____, c'est -2°c.",
+      "Avant de sortir de la maison, j’ai regardé par la fenêtre (pour) voir s’il faisait beau et j’ai vu du soleil. Du coup je ne me suis pas trop couverte. Le soleil est trompeur, en sortant il faisait _____, j’ai dû remonter prendre des gants, un chapeau et un foulard."
+    ],
+    "extension": [
+      {
+        "word": "lors de",
+        "usage": [
+          "_____ son dernier concert, Isabelle a interprété 10 chansons.",
+          "_____ dernier cours, j'ai pu parler pendant 5 minutes en particulier avec Seb.",
+          "Nous attendons avec plaisir votre visite _____ notre prochaine réunion."
+        ]
+      },
+      {
+        "word": "il est préférable de",
+        "usage": [
+          "Pour simplifier la gestion, _____ discuter sur un plan bien structuré.",
+          "_____ ne pas laisser les chiens dans la voiture.",
+          "C'est pourquoi _____ consommer des crèmes solaires avant l'été."
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Monter sur ses grands chevaux",
+    "definition": [
+      "Lorsqu’une personne s’énerve et hausse le ton pour défendre son point de vue",
+      "pour une troupe de chevaliers qui partait à la bataille en chevauchant de grandes montures, car lorsque les chevaliers combattaient, ils montaient sur des destriers et plus le «cheval de bataille» était grand, plus ils pouvaient observer et dominer l'adversaire."
+    ],
+    "usage": [
+      "Ce n’est pas la peine de _____! Je ne faisais que poser une question!",
+      "J'en ai marre! Arrête de toujours vouloir contrôler ma vie....Ne _____ pour me parler, je ne suis pas ton ami mais ton copain! On devrait pouvoir communiquer plus calmement, tu ne penses pas?"
+    ],
+    "extension": [
+      {
+        "word": "une troupe de",
+        "usage": [
+          "quelle _____ touristes devant le Sacré-Coeur.",
+          "Paul a créé _____ théâtre à 21 ans."
+        ]
+      },
+      {
+        "word": "plein de",
+        "usage": [
+          "Tu es _____’imagination dis donc, Seb.",
+          "Elle est _____'idées.",
+          "Il y a _____ fautes dans ce livre."
+        ]
+      },
+      {
+        "word": "dis donc",
+        "usage": [
+          "Je pensais pas qu'on pouvait finir à temps _____!",
+          "Mes voisins se disputent encore, c'est la troisième fois en 5 jours! Ben, _____!"
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Prêcher le faux pour savoir le vrai",
+    "definition": [
+      "tu dis à quelqu'un quelque chose de faux pour l'emmener à dire la vérité."
+    ],
+    "usage": [
+      "A: C’est bon, Marie, je suis au courant pour Stef et toi, il n’osait pas me le dire en face!\nB: C’est vrai Stef t’a parlé? alors tu ne le prends pas mal?\nA: C’est donc bien Stef ton copain! Je le savais!\nCela s’appelle _____!",
+      "A: J’ai entendu dire que Lili était malade depuis une semaine, je vais l’appeler pour prendre de ses nouvelles.\nB: Mais non! Elle n’est pas malade, elle est partie en vacances! Comme on ne voulait pas lui donner des congés, elle a demandé un arrêt à son médecin.\nPaul a _____!"
+    ],
+    "extension": [
+      {
+        "word": "Capter",
+        "usage": [
+          "Décidément, t'as rien _____ à ce que j'ai dit.",
+          "Il faut _____ une clientèle plus large pour l'année prochaine.",
+          "C'est difficile à _____ l'attention des gens sur Internet."
+        ]
+      },
+      {
+        "word": "un piège",
+        "usage": [
+          "En évitant _____, il a liquidé ses rivaux."
+        ]
+      },
+      {
+        "word": "dans le dos",
+        "usage": [
+          "Ils ont pris une décision _____ de l'équipe.",
+          "Ils ont signé un contrat commercial _____ de leur co-fondateur."
+        ]
+      }
+    ]
+  },
+  {
+    "word": "couper la poire en deux",
+    "definition": [
+      "partager en deux et de donner à chacun une part égale. En gros partager équitablement quelque chose, un peu comme un compromis"
+    ],
+    "usage": [
+      "Je veux que l’on passe le nouvel an en Chine et toi en France, enfin, je _____, on va donc passer le nouvel an occidental en France puis aller en Chine pour le nouvel an chinois.",
+      "Ma sœur m’a proposé de passer les vacances d’été chez elle et une amie m’a invité dans sa maison au bord de la mer. C’était dur de choisir, mais j’ai _____, j’irai deux semaines chez l’une et deux semaines chez l’autre.",
+      "A: Je suis intéressé pour votre appartement, mais je ne pourrais payer que 1 000 euros par mois.\nB: Mais le prix normal, c'est à 1 500 euros.\nA: Sinon, on _____, on fait 1 200 euros, vous êtes d'accord?",
+      "A: Mais non, (il) (ne) faut pas capituler, coûte que coûte.\nB: Sinon, _____. Tu lui demande de céder pour deux mille euros."
     ]
   }
 ]

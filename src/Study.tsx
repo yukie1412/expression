@@ -66,7 +66,7 @@ function Study() {
   const [words, setWords] = useState<IWord[]>([]);
   const [hideState, setHideState] = useState<boolean>(true); // hide by default
   const [hiddenWords, setHiddenWords] = useState<{[key: string]: boolean}>({});
-  const [stateFilter, setStateFilter] = useState<string>('');
+  const [stateFilter, setStateFilter] = useState<string>(filterTypes.all);
 
   useEffect(() => {
     const words = getVocabs();
